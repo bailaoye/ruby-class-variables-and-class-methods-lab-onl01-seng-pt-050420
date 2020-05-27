@@ -5,6 +5,10 @@ def Song
     @@count
   end
 
+  def self.genres
+    @@genres
+  end
+
   attr_accessor :name, :artist, :genre
 
   end
