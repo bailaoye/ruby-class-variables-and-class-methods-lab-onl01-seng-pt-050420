@@ -33,6 +33,9 @@ class Song
     @@genres.uniq
   end
 
+  def self.genre_count
+    @@genres.uniq.count
+
   def self.count
     @@count
   end
