@@ -25,20 +25,16 @@ class Song
     @@genre
   end
 
-  def artists
+  def self.artists
     @@artists
   end
 
-  def genres
+  def self.genres
     @@genres
   end
 
   def self.count
     @@count
-  end
-
-  def self.genres
-    @@genres
   end
 
 end
