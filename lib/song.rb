@@ -1,5 +1,6 @@
 def Song
   @@song_count = 0
+  @@genres = []
 
   def self.count
     @@count
